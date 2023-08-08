@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TabBarProblem.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TabBarProblem"
+    xmlns:infra="clr-namespace:TabBarProblem.Infrastructure"
+    xmlns:views="clr-namespace:TabBarProblem.Views"
+    Title="TabBarProblem"
+    Style="{StaticResource ShellMain}">
+
+    <ShellContent
+        ContentTemplate="{DataTemplate views:WelcomePage}"
+        Route="{x:Static infra:Routes.WelcomePage}" />
+
+    <TabBar Route="MainPageWithTabs">
+        <Tab Title="EmptyPage" Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate views:EmptyPage}" Route="{x:Static infra:Routes.EmptyPage}" />
+        </Tab>
+        <Tab Title="EmptyPage" Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate views:EmptyPage}" Route="{x:Static infra:Routes.EmptyPage}" />
+        </Tab>
+    </TabBar>
+</Shell>

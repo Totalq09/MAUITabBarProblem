@@ -58,9 +58,9 @@
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="5.2.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0-preview.6.23329.7" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.0-preview.7.8842" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.0-preview.7.8842" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0-preview.7.23375.6" />
 	</ItemGroup>
 
 	<ItemGroup>

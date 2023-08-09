@@ -19,6 +19,7 @@
         <Button
              x:Name="GoToWelcomePageButton"
              Text="Go back to Welcome Page"
+             WidthRequest="200"
              Command="{Binding GoToWelcomePageCommand}"
              HorizontalOptions="Center"
              Margin="100"/>
